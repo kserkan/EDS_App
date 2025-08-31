@@ -12,18 +12,6 @@ Bu proje, Flutter ile geliştirilmiş, araç içi bilgi eğlence sistemleri (And
 
 ---
 
-### Ekran Görüntüleri
-
-Bu bölümde uygulamanızın ekran görüntülerini ekleyebilirsiniz.
-
-| Ana Ekran (Mobil) | Ana Ekran (Android Auto) |
-|:---:|:---:|
-| ![Ana Ekran Mobil](https://placehold.co/400x800) | ![Ana Ekran Araba](https://placehold.co/800x400) |
-| PiP Modunda Uygulama | |
-| ![PiP Modu](https://placehold.co/400x800) | |
-
----
-
 ### Kurulum
 
 Bu projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyin.
