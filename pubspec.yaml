@@ -1,0 +1,38 @@
+name: eds_app
+description: Ortalama hız tespit (EDS) uygulaması
+publish_to: 'none' # Lokalde kullanılacak
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.7.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Google Maps entegrasyonu
+  google_maps_flutter: ^2.12.3
+
+  # Konum bilgisi
+  geolocator: ^14.0.2
+
+  # HTTP istekleri için
+  http: ^1.2.1
+
+  # iOS simgesi ve stil ikonları
+  cupertino_icons: ^1.0.8
+  permission_handler: ^12.0.1
+  audioplayers: ^6.5.0
+  shared_preferences: ^2.5.3
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/radar_icon.png
+    - assets/speed_warning.mp3
